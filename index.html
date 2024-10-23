@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codificación y Decodificación URI</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Codificación y Decodificación URI</h1>    
+    <textarea id="inputText" placeholder="Ingresa una URL o texto para codificar o decodificar"></textarea>
+    <button onclick="customEncodeURIComponent()">Codificar</button>
+    <button onclick="customDecodeURIComponent()">Decodificar</button>    
+    <h3>Resultado:</h3>
+    <div id="output">
+        <span id="resultText"></span>
+    </div>
+    <button id="copyButton" style="display: none;" onclick="copyToClipboard()">Copiar</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
